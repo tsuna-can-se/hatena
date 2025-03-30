@@ -28,13 +28,23 @@
     min-width: 300px;
 }
 
+.affiliate-container .info-section div.maker-name {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 .affiliate-container .info-section div.product-name {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.affiliate-container .info-section div.product-code {
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .affiliate-container .buttons {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .affiliate-container .store-button {
@@ -93,10 +103,22 @@
         text-align: center; /* テキストを中央揃え */
     }
 
+    .affiliate-container .info-section div.maker-name {
+        text-align: left;
+        width: 280px;
+        margin: 0px 10px 10px 10px;
+    }
+
     .affiliate-container .info-section div.product-name {
         text-align: left;
         width: 280px;
-        margin: 0px 10px 20px 10px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .affiliate-container .info-section div.product-code {
+        text-align: left;
+        width: 280px;
+        margin: 0px 10px 10px 10px;
     }
 
     .affiliate-container .buttons {
