@@ -65,6 +65,10 @@
     background-color: #E42022;
 }
 
+.affiliate-container .lohaco-button {
+    background-color: #998978;
+}
+
 @media (max-width: 480px) {
     .affiliate-container {
         width: 300px;
