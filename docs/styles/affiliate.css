@@ -1,0 +1,134 @@
+.affiliate-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 830px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.affiliate-container .image-section {
+    flex: 1;
+    max-width: 160px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.affiliate-container .image-section a {
+    text-decoration: none;
+}
+
+.affiliate-container .image-section a img:nth-of-type(2) {
+    width: 150px;
+    height: auto;
+}
+
+.affiliate-container .info-section {
+    flex: 2;
+    min-width: 300px;
+}
+
+.affiliate-container .info-section div.maker-name {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.affiliate-container .info-section div.product-name {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.affiliate-container .info-section div.product-code {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.affiliate-container .buttons {
+    margin: 20px 0 0 0;
+}
+
+.affiliate-container .store-button {
+    display: inline-block; /* ボタンのように見せる */
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center; /* テキストを中央揃え */
+    text-decoration: none; /* 下線を消す */
+    background-color: blue; /* 既定のボタン色は青 */
+    width: 180px;
+    line-height: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.affiliate-container .store-button:hover {
+    filter: brightness(1.4);
+    color: #fff;
+}
+
+.affiliate-container .lenovo-button {
+    background-color: #E42022;
+}
+
+.affiliate-container .lohaco-button {
+    background-color: #998978;
+}
+
+@media (max-width: 480px) {
+    .affiliate-container {
+        width: 300px;
+        flex-direction: column; /* 縦方向に配置 */
+        align-items: center; /* 中央配置 */
+        margin: 0 auto; /* 親要素に対して中央配置 */
+        padding: 10px; /* スペースを調整 */
+    }
+
+    .affiliate-container .image-section {
+        margin: 0 0 20px 0; /* 下にスペースを追加 */
+        max-width: 100%; /* 幅を親要素に合わせる */
+    }
+
+    .affiliate-container .image-section a img:nth-of-type(2) {
+        max-width: 150px;
+        height: auto; /* アスペクト比を維持 */
+    }
+
+    .affiliate-container .info-section {
+        width: 100%;
+        text-align: center; /* テキストを中央揃え */
+    }
+
+    .affiliate-container .info-section div.maker-name {
+        text-align: left;
+        width: 280px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .affiliate-container .info-section div.product-name {
+        text-align: left;
+        width: 280px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .affiliate-container .info-section div.product-code {
+        text-align: left;
+        width: 280px;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .affiliate-container .buttons {
+        display: flex;
+        flex-direction: column; /* ボタンを縦に並べる */
+        align-items: center; /* ボタンを中央揃え */
+    }
+
+    .affiliate-container .store-button {
+        width: 240px;
+        margin-right: 0px;
+    }
+}
