@@ -71,6 +71,10 @@
     color: #fff;
 }
 
+.affiliate-container .amazon-button {
+    background-color: #f79256;
+}
+
 .affiliate-container .lenovo-button {
     background-color: #E42022;
 }
